@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" href="sha.css"></link>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("./header.html");
+ 
+  $("#body").load("body.html");
+  $("#scroll").load("scroll.html");
+  $("#card").load("cards.html");
+  $("#footer").load("footer.html");
+});
+</script> 
+
+</head>
+<body>
+<div id="header"></div>
+
+<!--Remaining section-->
+<div id="body"></div>
+<div id ="scroll"></div>
+<div id="card"></div>
+
+
+<div id="footer"></div>
+</body>
+<script src="salo.js"></script>
+</html>
